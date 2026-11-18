@@ -7,7 +7,7 @@
      "A new version is available → Update".
    Developed by Debasis Rout
    ===================================================================== */
-const VERSION = 'mm-v1.0.0';
+const VERSION = 'mm-v1.0.1';
 const SHELL_CACHE = VERSION + '-shell';
 const RUNTIME_CACHE = VERSION + '-runtime';
 const SHELL = [
@@ -15,19 +15,19 @@ const SHELL = [
   './index.html',
   './offline.html',
   './manifest.json',
-  './css/app.css',
-  './js/config.js',
-  './js/api.js',
-  './js/ui.js',
-  './js/home.js',
-  './js/customer.js',
-  './js/professional.js',
-  './js/admin.js',
-  './js/app.js',
-  './js/offline.js',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/favicon.png'
+  './app.css',
+  './config.js',
+  './api.js',
+  './ui.js',
+  './home.js',
+  './customer.js',
+  './professional.js',
+  './admin.js',
+  './app.js',
+  './offline.js',
+  './icon-192.png',
+  './icon-512.png',
+  './favicon.png'
 ];
 
 self.addEventListener('install', event => {
